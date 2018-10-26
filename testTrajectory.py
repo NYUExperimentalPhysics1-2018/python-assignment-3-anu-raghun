@@ -9,7 +9,7 @@ tests trajectory from tanks.py
 from tanks import trajectory
 import matplotlib.pyplot as plt
 
-x,y = trajectory(1,1, 20, 45)
+x,y = trajectory(1,1,20,45)
 plt.clf()
 plt.plot(x,y)
 xt = [1, 11.458698248219541, 21.917396496439082, 32.376094744658616,42.792958199885284]
